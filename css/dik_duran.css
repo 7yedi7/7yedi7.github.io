@@ -1,0 +1,56 @@
+.image_dik_duran{
+    width: 50px; 
+    transform: scaleX(-1); 
+    filter: drop-shadow(10px 10px 40px white);
+}
+.image_balyk_tutyan{
+    position: relative;
+}
+.color_white{
+    color: white;
+}
+.icon_yokaryk{
+    transform: rotate(30deg);
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
+#balyk{
+    display: none;
+    position: absolute;
+    top: 7px;
+    right: -150px;
+    transform: rotate(-77deg);
+    animation: anime 2s alternate;
+}
+.balyk_style{
+    width: 500px;  
+    transform: scaleX(-1); ;
+    animation: anime2 2s alternate;
+}
+.balyk_relative{
+    position: relative;
+}
+/* .exit{
+    position: absolute;
+    top: 500px;
+    right: 0;
+    background-color: rgb(230, 5, 5);
+    z-index: 10000;
+} */
+
+
+
+
+@keyframes anime {
+    from{top: 400px; right: 150px;}
+    to{top: 50px; right: 30px;}
+  }
+
+@keyframes anime2{
+    0%   {width: 100px;}
+    25%  {width: 100px;}
+    50%  {width: 100px;}
+    100% {width: 100px;}
+}
