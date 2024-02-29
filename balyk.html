@@ -7,39 +7,30 @@
     <link rel="stylesheet" href="./css/style 2.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/dik_duran.css">
+    <link rel="stylesheet" href="./css/icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/icons.css">
+    <link rel="stylesheet" href="./css/input.css">
+
 </head>
 <body>
     <div>
         <nav>
-            <!-- <ul class="sidebar">
-                <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><span class="phoneNavIcon"><i class="bi bi-x-lg"></i></span></li>
                 <li><a href="">Block</a></li>
                 <li><a href="">Products</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Forum</a></li>
-                <li><a href="">Login</a></li>
-            </ul> -->
+                <li><span class="phoneNavInput"><input class="inputOfNavbar" type="text" placeholder="Search.."><i class="bi bi-search"></i></span></li>
+            </ul>
             <ul>
-                <li><a href=""><img class="logoOfSeven" src="./7 logos/7 logo svg/7.6.svg" alt=""></a></li>
-                <li class="hideOnMobile"><a href="">Block</a></li>
-                <li class="hideOnMobile"><a href="">Products</a></li>
-                <li class="hideOnMobile"><a href="">About</a></li>
-                <li class="hideOnMobile"><a href="">Forum</a></li>
-                <li class="hideOnMobile"><a href="">Login</a></li>
-                <li class="menu-button" onclick=showSidebar()><a href="#">
-                    <span class="image_balyk_tutyan">
-                        <img class="image_dik_duran" src="./img/dik duran.png" alt="">
-                        <span class="icon_yokaryk">
-                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-                                <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/>
-                            </svg>
-                        </span>
-                        <span id="balyk">
-                            <img class="balyk_style" src="./img/balyk.png" alt="">
-                        </span>
-                    </span>
-                </a>
-            </li>
+                <li><span class="logoOfA" href=""><img class="logoOfSeven" src="./7 logos/7 logo svg/7.6.svg" alt=""></span></li>
+                <li class="hideOnMobile"><a href="">Biz barada</a></li>
+                <li class="hideOnMobile"><a href="">Ählisi</a></li>
+                <li class="hideOnMobile"><a href="">Bölümler</a></li>
+                <li class="hideOnMobile"><a href="">Goşmaça</a></li>
+                <li class="hideOnMobile"><span class="phoneNavInput"><input class="inputOfNavbar" type="text" placeholder="Search.."><i class="bi bi-search"></i></span></li>
+                <li class="menu-button" onclick=showSidebar()><span class="phoneNavIcon"><i class="bi bi-list"></i></span></li>
             </ul>
         </nav>
     </div>
@@ -72,8 +63,8 @@
         </div>
     <script>
         function showSidebar(){
-            const balyk = document.getElementById('balyk')
-            balyk.style.display = 'flex';
+            const sidebar= document.querySelector('.sidebar')
+            sidebar.style.display = 'flex';
         }
         function hideSidebar(){
             const sidebar = document.querySelector('.sidebar')

@@ -1,0 +1,17 @@
+.bi{
+    color: white;
+}
+.bi-list{
+    font-size: 32px;
+}
+.bi-x-lg{
+    font-size: 16px;
+}
+.bi-search{
+    font-size: 24px;
+    padding: 5px;
+    background-color: rgb(46, 235, 17);
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+

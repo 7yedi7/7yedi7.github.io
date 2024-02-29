@@ -22,22 +22,42 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: rgb(46, 235, 17);
+    font-size: 24px;
+}
+.phoneNavIcon{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+.phoneNavInput{
+    height: 100%;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+
 }
 nav a:hover{
-    background-color: #f0f0f0;
+    color: red;
 }
 nav li:first-child{
     margin-right: auto;
 }
-/* .sidebar{
+.logoOfA{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logoOfSeven{
+    padding-top: 10px;
+    height: 100px;
+    overflow: hidden;
+}
+.sidebar{
     position: fixed;
     top: 0;
     right: 0;
-    background-image: url(css/balyk.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    transform: rotate(90deg);
     height: 100vh;
     width: 250px;
     z-index: 999;
@@ -49,13 +69,10 @@ nav li:first-child{
     align-items: flex-start;
     justify-content: flex-start;
 
-} */
-
-
-.logoOfSeven{
-    padding-top: 10px;
-    height: 100px;
 }
+
+
+
 .sidebar li{
     width: 100%;
 }
@@ -71,6 +88,9 @@ nav li:first-child{
     }
     .menu-button{
         display: block;
+    }
+    .phoneNavInput{
+        margin: 0 30px;
     }
 }
 @media(max-width: 400px){
