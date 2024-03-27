@@ -3,124 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ýedi</title>
-    <link rel="icon" href="./svg/7.favicon.svg">
-    <link rel="stylesheet" href="./css and js/css/style.css">
-    <link rel="stylesheet" href="./font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css and js/css/prism.css">
-    <link rel="stylesheet" href="./css and js/css/style code show.css">
-    <link rel="stylesheet" href="./css and js/css/navbar.css">
+    <title>Responsive navbar</title>
+    <link rel="stylesheet" href="./css/style 2.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/dik_duran.css">
+    <link rel="stylesheet" href="./css/icons.css">
+    <link rel="stylesheet" href="./css/input.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
 </head>
 <body>
-        <div style="position: relative;">
-            <nav style="position: fixed; z-index: 10;">
+    <div>
+        <nav>
+            <div class="navbar_container"> 
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><span class="phoneNavIcon"><i class="bi bi-x-lg"></i></span></li>
+                    <li><a href="">Block</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Forum</a></li>
+                    <li><span class="phoneNavInput"><input class="inputOfNavbar" type="text" placeholder="Search.."><i class="bi bi-search"></i></span></li>
+                </ul>
+                <ul>
+                    <li><span class="logoOfA" href=""><img class="logoOfSeven" src="./7 logos/7 logo svg/7.6.svg" alt=""></span></li>
+                    <li class="hideOnMobile"><a href="">Biz barada</a></li>
+                    <li class="hideOnMobile"><a href="">Ählisi</a></li>
+                    <li class="hideOnMobile"><a href="">Bölümler</a></li>
+                    <li class="hideOnMobile"><a href="">Goşmaça</a></li>
+                    <li class="hideOnMobile"><span class="phoneNavInput"><input class="inputOfNavbar" type="text" placeholder="Search.."><i class="bi bi-search"></i></span></li>
+                    <li class="menu-button" onclick=showSidebar()><span class="phoneNavIcon"><i class="bi bi-list"></i></span></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="header">
+
+        <!--Content before waves-->
+        <div class="inner-header flex">
+        <!--Just the logo.. Don't mind this-->
+        
+        <div class="navbar_container main_text_balyk_tutasyn_gelyarmi">
+            <div class="main_text">
                 <div>
-                    <img class="image" src="./svg/7.favicon.svg" alt="">
-                    <img class="image" src="./svg/7.yedi.svg" alt="">
+                    Balyk tutasyň gelýärmi?
                 </div>
-                <div>
-                    <div>
-                        <i class="bi bi-justify" id="btn"></i>
-                     </div>
-                    <ul class="ull">
-                        <li><a href="">Öý</a></li>
-                        <li><a href="./example.html">Biz barada</a></li>
-                        <li class="pos-rel">
-                            <a>
-                                <span id="bolum">
-                                    Bölümler <i class="bi bi-chevron-down asak">
-                                    </i>
-                                </span>
-                            </a>
-                             <!-- Bolumleri basanda acylyan bolum -->
-                            <div class="pos-abs afterIcon" id="posAbs">
-                                <div style="padding-top: 10px;">
-                                    <a class="bolumA" href="">Hemmesi</a>
-                                </div>
-                                <div style="padding-top: 10px;">
-                                    <a class="bolumA" href="">Buttons</a>
-                                </div>
-                                <div style="padding-top: 10px;">
-                                    <a class="bolumA" href="">Checkboxes</a>
-                                </div>
-                                <div style="padding-top: 10px;">
-                                    <a class="bolumA" href="">Cards</a>
-                                </div>
-                                <div style="padding-top: 10px;">
-                                    <a class="bolumA" href="">Inputs</a>
-                                </div>
-                                <div style="padding-top: 10px; padding-bottom: 16px;">
-                                    <a class="bolumA" href="./balyk.html">Balyk</a>
-                                </div>
-                            </div>
-                            <!-- bolumleri basanda acylyan bolumin gutaryan yeri -->
-                        </li>
-                        <li><a href="">Kömek</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- Adaptasiyada iconyn deregine cykyanlar -->
-            <div class="afterIcon" id="afterIcon">
-                <div class="wrap">
-                    <a href="">Öý</a>
-                    <a href="">Biz barada</a>
-                    <a href=""><span>Bölümler <i class="bi bi-chevron-down asak"></i></span></a>
-                    <a href="">Kömek</a>
+                <div class="after_main">
+                    Onda sen dogry ýerde! Biziň online <a href="" style="color:  rgb(46, 235, 17); text-decoration: none;">"ÝEDI"</a> web sahypamyzdan siz balyk tutmak üçin gerekli harytlary we maglumatlary tapyp bilersiňiz!
                 </div>
             </div>
-    <!-- second -->
-           <main style="position: absolute; top: 70px; width: 100%; z-index: 1;">
-                <div class="leftNav-bg">
-                    <div class="leftNav">
-                        <a class="AleftNav" href="">All</a>
-                        <a class="AleftNav" href="">Buttons</a>
-                        <a class="AleftNav" href="">Checkboxes</a>
-                        <a class="AleftNav" href="">Cards</a>
-                        <a class="AleftNav" href="">Loaders</a>
-                        <a class="AleftNav" href="">Inputs</a>
-                        <a class="AleftNav" href="">Radio buttons</a>
-                        <a class="AleftNav" href="">Forms</a>
-                        <a class="AleftNav" href="">Patterns</a>
-                        <a class="AleftNav" href="">Tooltips</a>
-                    </div>
-                </div>
-                <div class="center" id="center" >
-                </div>
-                <div class="code-center" id="code_center">
-                    <div id="box1">
-
-                    </div>
-                    <div id="box_code">
-                        <div class="code-wrapper">
-                            <div style="color: aliceblue; padding-left: 50px; position: fixed; border-radius: 10px; top: 133px; right: 50px;"  >
-                                <button class="buttonOfCode" style="color: brown;">
-                                    Html
-                                </button>
-                                <button  class="buttonOfCode" style="color:cornflowerblue;">
-                                    css
-                                </button>
-                            </div>
-                        <div class="">
-                            <pre>
-                                <code id="code" class="language-html">
-                                </code>
-                            </pre>
-                        </div>
-                        <button id="copy-button">Copy</button>
-                        </div>
-                    </div>
-                </div>
-                
-                </div>
-            </main>
         </div>
-
-        <script src="./css and js/js/bootstrap.bundle.min.js" defer></script>
-         <script src="./css and js/js/javascrip.js" defer></script>
-         <script src="./css and js/js/code show.js" defer></script>
-         <script src="./css and js/js/prism.js" defer></script>
+            
+        
+        
+        
+        </div>
+        
+        <!--Waves Container-->
+        <div>
+        <svg class="waves"  
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="10" fill="#fff" />
+        </g>
+        </svg>
+        </div>
+        <!--Waves end-->
+        
+        </div>
+        <main>
+            <div class="navbar_container">
+                <div class="inside_container">
+                    <div class="card">
+                            <img src="./img/1_org_zoom (1).webp" alt="" class="place_for_img">
+                            <div>
+                                <div style="font-size: 24px; display: flex; justify-content: center; padding-top: 8px;">
+                                    Name of the product
+                                </div>
+                                <div style="padding-left : 18px; padding-bottom: 10px; padding-top: 5px;">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt voluptate quia tempore qui aliquid id!
+                                </div>
+                               <div style="display: flex; justify-content: center;">
+                                <div style="color: chocolate; font-size: 30px; padding-right: 18px;">
+                                    100 TMT
+                                </div>
+                                <a href="#" style="font-size: 30px;  text-decoration: none;">
+                                    Giňişleýin 
+                                </a>
+                                
+                            </div>
+                               
+                            </div>
+                    </div>
+                    <div class="card">
+                        <img src="./img/1_org_zoom (2).webp" alt="" class="place_for_img">
+                        <div>
+                            <div style="font-size: 24px; display: flex; justify-content: center; padding-top: 8px;">
+                                Name of the product
+                            </div>
+                            <div style="padding-left : 18px; padding-bottom: 10px; padding-top: 5px;">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt voluptate quia tempore qui aliquid id!
+                            </div>
+                           <div style="display: flex; justify-content: center;">
+                            <div style="color: chocolate; font-size: 30px; padding-right: 18px;">
+                                100 TMT
+                            </div>
+                            <a href="#" style="font-size: 30px;  text-decoration: none;">
+                                Giňişleýin 
+                            </a>
+                            
+                        </div>
+                           
+                        </div>
+                </div>
+                <div class="card">
+                    <img src="./img/1_org_zoom (3).webp" alt="" class="place_for_img">
+                    <div>
+                        <div style="font-size: 24px; display: flex; justify-content: center; padding-top: 8px;">
+                            Name of the product
+                        </div>
+                        <div style="padding-left : 18px; padding-bottom: 10px; padding-top: 5px;">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt voluptate quia tempore qui aliquid id!
+                        </div>
+                       <div style="display: flex; justify-content: center;">
+                        <div style="color: chocolate; font-size: 30px; padding-right: 18px;">
+                            100 TMT
+                        </div>
+                        <a href="#" style="font-size: 30px;  text-decoration: none;">
+                            Giňişleýin 
+                        </a>
+                        
+                    </div>
+                       
+                    </div>
+            </div>
+            <div class="card">
+                <img src="./img/1_org_zoom (3).webp" alt="" class="place_for_img">
+                <div>
+                    <div style="font-size: 24px; display: flex; justify-content: center; padding-top: 8px;">
+                        Name of the product
+                    </div>
+                    <div style="padding-left : 18px; padding-bottom: 10px; padding-top: 5px;">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt voluptate quia tempore qui aliquid id!
+                    </div>
+                   <div style="display: flex; justify-content: center;">
+                    <div style="color: chocolate; font-size: 30px; padding-right: 18px;">
+                        100 TMT
+                    </div>
+                    <a href="#" style="font-size: 30px;  text-decoration: none;">
+                        Giňişleýin 
+                    </a>
+                    
+                </div>
+                   
+                </div>
+        </div>
+        <div class="card">
+            <img src="./img/1_org_zoom (4).webp" alt="" class="place_for_img">
+            <div>
+                <div style="font-size: 24px; display: flex; justify-content: center; padding-top: 8px;">
+                    Name of the product
+                </div>
+                <div style="padding-left : 18px; padding-bottom: 10px; padding-top: 5px;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt voluptate quia tempore qui aliquid id!
+                </div>
+               <div style="display: flex; justify-content: center;">
+                <div style="color: chocolate; font-size: 30px; padding-right: 18px;">
+                    100 TMT
+                </div>
+                <a href="#" style="font-size: 30px;  text-decoration: none;">
+                    Giňişleýin 
+                </a>
+                
+            </div>
+               
+            </div>
+    </div>
+    <div class="card">
+        <img src="./img/1_org_zoom.webp" alt="" class="place_for_img">
+        <div>
+            <div style="font-size: 24px; display: flex; justify-content: center; padding-top: 8px;">
+                Name of the product
+            </div>
+            <div style="padding-left : 18px; padding-bottom: 10px; padding-top: 5px;">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt voluptate quia tempore qui aliquid id!
+            </div>
+           <div style="display: flex; justify-content: center;">
+            <div style="color: chocolate; font-size: 30px; padding-right: 18px;">
+                100 TMT
+            </div>
+            <a href="#" style="font-size: 30px;  text-decoration: none;">
+                Giňişleýin 
+            </a>
+            
+        </div>
+           
+        </div>
+</div>
+                </div>
+            </div>
+        </main>
+            <!-- <footer class="site-footer" style="border-top: 5px solid black;">                
+                <span class="po">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path class="color_of_footer" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+                </span> 
+           </footer> -->
+    <script>
+        function showSidebar(){
+            const sidebar= document.querySelector('.sidebar')
+            const main_text = document.querySelector(".main_text_balyk_tutasyn_gelyarmi")
+            main_text.style.display= "none"
+            sidebar.style.display = 'flex';
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            const main_text = document.querySelector(".main_text_balyk_tutasyn_gelyarmi")
+            main_text.style.display= "flex"
+            sidebar.style.display = 'none';
+        }
+    </script>
 </body>
 </html>
-
-
-
