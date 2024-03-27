@@ -4,6 +4,13 @@ nav{
     position: fixed;
     background-color: rgba(5, 33, 80, 0.2);
     backdrop-filter: blur(20px);   
+    padding-right: auto;
+    padding-left: auto;
+}
+.navbar_container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav ul{
     width: 100%;
@@ -27,9 +34,9 @@ nav a{
 }
 .phoneNavIcon{
     height: 100%;
-    padding: 0 30px;
     display: flex;
     align-items: center;
+    padding-left: 30px;
 }
 .phoneNavInput{
     height: 100%;
@@ -45,9 +52,11 @@ nav li:first-child{
     margin-right: auto;
 }
 .logoOfA{
+    margin-left: -30px;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: start;
 }
 .logoOfSeven{
     padding-top: 10px;
@@ -82,7 +91,7 @@ nav li:first-child{
 .menu-button{
     display: none;
 }
-@media(max-width: 800px){
+@media(max-width: 1000px){
     .hideOnMobile{
         display: none;
     }
@@ -91,6 +100,9 @@ nav li:first-child{
     }
     .phoneNavInput{
         margin: 0 30px;
+    }
+    .navbar_container{
+        width: 90%;
     }
 }
 @media(max-width: 400px){
