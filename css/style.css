@@ -1017,23 +1017,33 @@ SEARCH
 */
 .search-bottom {
     position: fixed;
-    bottom: 60px;
+    top: 0;
     width: var(--percent100);
     padding: 2.5em 0;
-    background-color: var(--secondary-dark-color);
+    background-color: var(--bg-color-green);
+    border-bottom-left-radius: 18px;
     z-index: 1000;
     visibility: hidden;
     opacity: 0;
     will-change: visibility, opacity;
+    /* visibility: inherit;
+    opacity: 1; */
 }
-.showsearch .search-bottom {
+.showsearch{
     visibility: inherit;
     opacity: 1;
 }
 .search-bottom .t-close {
     position: absolute;
-    top: -54px;
+    top: 86px;
     right: 0;
+}
+
+.t-close_changed{
+    border-radius: 0;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: var(--bg-color-green);
 }
 
 /* overlay */

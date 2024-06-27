@@ -11,6 +11,22 @@
 
 menu_bottom_innerCode = 
 `
+
+<div id="showsearch" class="search-bottom desktop-hide">
+<div class="container">
+    <div class="wrapper">
+        <form action="" class="search">
+            <a href="#" onclick="t_closeShowsearch()" class="t-close_changed t-close search-close flexcenter"><i class="ri-close-line"></i></a>
+            <span class="icon-large"><i class="ri-search-line"></i></span>
+            <input type="search" placeholder="Your email address" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</div>
+</div>
+
+
+
 <div class="body_menu_bottom desktop-hide">
             <div class="navigation">
                 <ul>
@@ -33,7 +49,7 @@ menu_bottom_innerCode =
                         </a>
                     </li>
                     <li class="list">
-                        <a href="#">
+                        <a onclick="showsearch_func()" href="#">
                             <span class="icon"><i class="ri-search-line"></i></span>
                             <span class="text">Gözleg</span>
                         </a>
@@ -111,6 +127,21 @@ for (let i = 0; i < lists.length; i++){
     })
 
 }
+
+
+
+let showsearch;
+function showsearch_func(){
+    console.log("inside show func")
+    showsearch = document.getElementById("showsearch");
+    showsearch.classList.add("showsearch");
+}
+function t_closeShowsearch(){
+    showsearch = document.getElementById("showsearch");
+    showsearch.classList.remove("showsearch");
+}
+
+
 
 function calculate_screenBottom(a){
     let w = window.innerWidth;
