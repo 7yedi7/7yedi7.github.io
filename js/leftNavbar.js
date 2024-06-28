@@ -12,9 +12,9 @@ let left_nav_innerCode =
         <nav>
             <span>Satlyk harytlar</span>
             <ul>
-                <li><a href="./yakynda.html">Kitaplar</a></li>
-                <li><a href="./yakynda.html">Balykçylyga degişli</a></li>
-                <li><a href="./yakynda.html">Başgalar</a></li>
+                <li><a href="./kitaplar.html">Kitaplar</a></li>
+                <li><a href="./index.html">Balykçylyga degişli</a></li>
+                <li><a href="./basgalar.html">Başgalar</a></li>
             </ul>
             <span>Hyzmatlar</span>
             <ul>

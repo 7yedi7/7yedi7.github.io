@@ -1,13 +1,4 @@
 
-// function create_menu_bottomCss(cssAdress){
-//     link = document.createElement('link');
-//         link.rel = "stylesheet";
-//         link.href = cssAdress;
-//         head_tag = document.getElementsByTagName("head")[0];
-//         head_tag.appendChild(link)
-//     }
-//     create_menu_bottomCss("./css/menu_bottom.css")
-
 
 menu_bottom_innerCode = 
 `
