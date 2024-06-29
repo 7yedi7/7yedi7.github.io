@@ -133,7 +133,7 @@ let API_products = {
 };
 
 
-let API_changed;
+let API_changed = API_products.balykOnumleri;
 
 function api_change_func(){
     console.log("inside api")
