@@ -2,7 +2,7 @@ let API_products = {
         balykOnumleri : [
         {
             number : 0,
-            img_a : ["./img/0.jpg", "./img/0.1.jpg", "./img/0.2.jpg", "./img/0.3.jpg"],
+            img_a : ["./img/0.4.jpg","./img/0.jpg", "./img/0.1.jpg", "./img/0.2.jpg", "./img/0.3.jpg"],
             name_of_product: "Balyk tutulýan tor",
             current_price : 160,
             about_product  : "Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
@@ -10,23 +10,58 @@ let API_products = {
     
         {
             number : 1,
-            img_a : ["./img/1.jpg", "./img/1.1.jpg", "./img/1.2.jpg"],
+            img_a : ["./img/6.jpg", "./img/6.1.jpg"],
             name_of_product: "Bitcoin Moneta",
             current_price : 150,
             about_product  : "Bitcoin Moneta. Suwenir pul hökmünde güýji ýok"    
         },
         {
             number : 2,
-            img_a : ["./img/2.jpg", "./img/2.1.jpg", "./img/2.2.jpg"],
+            img_a : ["./img/7.jpg", "./img/7.1.jpg"],
             name_of_product: "Kapilka Zalotisty",
             current_price : 100,
             about_product  : "Kapilka Original Lakly. Suw sepseňem hiç zat bolmaýar. Oňuşyk bar"    
-        }
+        },
+        {
+            number : 0,
+            img_a : ["./img/8.jpg"],
+            name_of_product: "Balyk tutulýan tor",
+            current_price : 160,
+            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+        },
+        {
+            number : 0,
+            img_a : ["./img/9.jpg"],
+            name_of_product: "Balyk tutulýan tor",
+            current_price : 160,
+            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+        },
+        {
+            number : 0,
+            img_a : ["./img/10.jpg", "./img/10.1.jpg", "./img/10.2.jpg"],
+            name_of_product: "Balyk tutulýan tor",
+            current_price : 160,
+            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+        },
+        {
+            number : 0,
+            img_a : ["./img/11.jpg"],
+            name_of_product: "Balyk tutulýan tor",
+            current_price : 160,
+            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+        },
+        {
+            number : 0,
+            img_a : ["./img/12.jpg", "./img/12.1.jpg"],
+            name_of_product: "Balyk tutulýan tor",
+            current_price : 160,
+            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+        },
     ],
     basgalar : [
         {
             number : 0,
-            img_a : ["./img/0.jpg", "./img/0.1.jpg", "./img/0.2.jpg", "./img/0.3.jpg"],
+            img_a : ["./img/1.jpg", "./img/1.1.jpg", "./img/1.2.jpg"],
             name_of_product: "Balyk tutulýan tor",
             current_price : 160,
             about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
@@ -45,13 +80,10 @@ let API_products = {
             name_of_product: "Kapilka Zalotisty",
             current_price : 100,
             about_product  : "000Kapilka Original Lakly. Suw sepseňem hiç zat bolmaýar. Oňuşyk bar"    
-        }
-    ],
-
-    kitaplar : [
+        },
         {
             number : 0,
-            img_a : ["./img/0.jpg", "./img/0.1.jpg", "./img/0.2.jpg", "./img/0.3.jpg"],
+            img_a : ["./img/3.jpg", "./img/3.1.jpg", "./img/3.2.jpg"],
             name_of_product: "Balyk tutulýan tor",
             current_price : 160,
             about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
@@ -59,14 +91,39 @@ let API_products = {
     
         {
             number : 1,
-            img_a : ["./img/1.jpg", "./img/1.1.jpg", "./img/1.2.jpg"],
+            img_a : ["./img/4.jpg", "./img/4.1.jpg", "./img/4.2.jpg"],
             name_of_product: "Bitcoin Moneta",
             current_price : 150,
             about_product  : "000Bitcoin Moneta. Suwenir pul hökmünde güýji ýok"    
         },
         {
             number : 2,
-            img_a : ["./img/2.jpg", "./img/2.1.jpg", "./img/2.2.jpg"],
+            img_a : ["./img/5.jpg", "./img/5.1.jpg", "./img/5.2.jpg"],
+            name_of_product: "Kapilka Zalotisty",
+            current_price : 100,
+            about_product  : "000Kapilka Original Lakly. Suw sepseňem hiç zat bolmaýar. Oňuşyk bar"    
+        }
+    ],
+
+    kitaplar : [
+        {
+            number : 0,
+            img_a : ["./img/3.jpg", "./img/3.1.jpg", "./img/3.2.jpg"],
+            name_of_product: "Balyk tutulýan tor",
+            current_price : 160,
+            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+        },
+    
+        {
+            number : 1,
+            img_a : ["./img/4.jpg", "./img/4.1.jpg", "./img/4.2.jpg"],
+            name_of_product: "Bitcoin Moneta",
+            current_price : 150,
+            about_product  : "000Bitcoin Moneta. Suwenir pul hökmünde güýji ýok"    
+        },
+        {
+            number : 2,
+            img_a : ["./img/5.jpg", "./img/5.1.jpg", "./img/5.2.jpg"],
             name_of_product: "Kapilka Zalotisty",
             current_price : 100,
             about_product  : "000Kapilka Original Lakly. Suw sepseňem hiç zat bolmaýar. Oňuşyk bar"    
@@ -166,7 +223,7 @@ function createElement_func(){
                     <h3 class="main-links"><a href="#">${API_changed[i].name_of_product}</a></h3>
                     <div class="price">
                         <span class="stars"></span>
-                        <span class="current">${API_changed[i].current_price}<span class="tmt"> TMT</span></span>
+                        <span class="current">${API_changed[i].current_price*0}<span class="tmt"> TMT</span></span>
                     </div>
                     <div class="mini-text">
                         <p>${API_changed[i].about_product.substring(0,98)}...</p>
