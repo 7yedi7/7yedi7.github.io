@@ -2,60 +2,95 @@ let API_products = {
         balykOnumleri : [
         {
             number : 0,
-            img_a : ["./img/0.4.jpg","./img/0.jpg", "./img/0.1.jpg", "./img/0.2.jpg", "./img/0.3.jpg"],
-            name_of_product: "Balyk tutulýan tor",
-            current_price : 160,
-            about_product  : "Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+            img_a : ["./img/0.png"],
+            name_of_product: "Katuşka Cobra CB640",
+            current_price : 100,
+            about_product  : "Katuşka Kobra CB640. Sag eliňe ýa-da çep eliňe bolar ýaly edip üýtgedip bolýar!"
         },
-    
         {
             number : 1,
-            img_a : ["./img/6.jpg", "./img/6.1.jpg"],
-            name_of_product: "Bitcoin Moneta",
-            current_price : 150,
-            about_product  : "Bitcoin Moneta. Suwenir pul hökmünde güýji ýok"    
+            img_a : ["./img/1.png"],
+            name_of_product: "Katuşka RL5000",
+            current_price : 280,
+            about_product  : "Katuşka RL5000. Agramy 420gram. Daşky korpusy metal. Şpulýa alýumin splawy"    
         },
         {
             number : 2,
-            img_a : ["./img/7.jpg", "./img/7.1.jpg"],
-            name_of_product: "Kapilka Zalotisty",
-            current_price : 100,
-            about_product  : "Kapilka Original Lakly. Suw sepseňem hiç zat bolmaýar. Oňuşyk bar"    
+            img_a : ["./img/2.jpg"],
+            name_of_product: "Katuşka RL6000",
+            current_price : 300,
+            about_product  : "Katuşka RL6000. Agramy 420gram. Daşky korpusy metal. Şpulýa alýumin splawy"    
         },
         {
-            number : 0,
-            img_a : ["./img/8.jpg"],
-            name_of_product: "Balyk tutulýan tor",
-            current_price : 160,
-            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+            number : 3,
+            img_a : ["./img/3.png"],
+            name_of_product: "Katuşka BO DiAO 3000",
+            current_price : 170,
+            about_product  : "Katuşka BO DIAO 3000"
         },
         {
-            number : 0,
-            img_a : ["./img/9.jpg"],
-            name_of_product: "Balyk tutulýan tor",
-            current_price : 160,
-            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+            number :4,
+            img_a : ["./img/3.png"],
+            name_of_product: "Katuşka BO DiAO 4000",
+            current_price : 180,
+            about_product  : "Katuşka BO DIAO 4000"
         },
         {
-            number : 0,
-            img_a : ["./img/10.jpg", "./img/10.1.jpg", "./img/10.2.jpg"],
-            name_of_product: "Balyk tutulýan tor",
-            current_price : 160,
-            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+            number : 6,
+            img_a : ["./img/4.jpg", "./img/4.1.jpg", "./img/4.2.jpg", "./img/4.3.jpg", "./img/4.4.jpg", "./img/4.5.jpg", "./img/4.6.jpg", "./img/4.7.jpg",],
+            name_of_product: "Katuşka JS Series 4000",
+            current_price : 400,
+            about_product  : "Katuşka JS Series 4000. Podşipnik 12+1. Agramy 290gram"
         },
         {
-            number : 0,
-            img_a : ["./img/11.jpg"],
-            name_of_product: "Balyk tutulýan tor",
-            current_price : 160,
-            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+            number : 5,
+            img_a : ["./img/4.jpg", "./img/4.1.jpg", "./img/4.2.jpg", "./img/4.3.jpg", "./img/4.4.jpg", "./img/4.5.jpg", "./img/4.6.jpg", "./img/4.7.jpg",],
+            name_of_product: "Katuşka JS Series 5000",
+            current_price : 420,
+            about_product  : "Katuşka JS Series 5000. Podşipnik 12+1. Agramy 385gram"
+        },
+        
+        {
+            number : 6,
+            img_a : ["./img/5.png", "./img/5.1.png", "./img/5.2.png"],
+            name_of_product: "Katuşka DIOZEN Feeder FG60",
+            current_price : 240,
+            about_product  : "Katuşka DIOZEN Feeder FG60"
         },
         {
-            number : 0,
-            img_a : ["./img/12.jpg", "./img/12.1.jpg"],
-            name_of_product: "Balyk tutulýan tor",
-            current_price : 160,
-            about_product  : "000Balyk Tor. 16 deşikli. Içine iým salyp goýaýmaly. Içine giren balyklar yzyna çykyp bilmeýär. Alana nesip etsin gaty gowy zat! Bahasy 160m Oňuşyk bolar geliberiň"
+            number : 7,
+            img_a : ["./img/6.jpg", "./img/6.1.jpg" ],
+            name_of_product: "Ýygnalýan stol",
+            current_price : 110,
+            about_product  : "Ýygnalýan stol"
+        },
+        {
+            number : 8,
+            img_a : ["./img/7.jpg", "./img/7.1.jpg", "./img/7.2.jpg" ],
+            name_of_product: "Ýygnalýan stol",
+            current_price : 80,
+            about_product  : "Ýygnalýan stol"
+        },
+        {
+            number : 9,
+            img_a : ["./img/8.jpg", "./img/8.1.jpg", "./img/8.2.jpg" ],
+            name_of_product: "Balykçylaryň atagzysy",
+            current_price : 70,
+            about_product  : "Balykçylaryň atagzysy. Žilka kesmek üçin ýa-da kriçoga gurçuk geýdirmek üçin ulanyp bilersiňiz!"
+        },
+        {
+            number : 10,
+            img_a : ["./img/9.jpg", "./img/9.1.jpg", "./img/9.2.jpg", "./img/9.3.jpg" ],
+            name_of_product: "Kriçok çykarýan",
+            current_price : 25,
+            about_product  : "Balygyň agzyndan krçok çykarýan!"
+        },
+        {
+            number : 11,
+            img_a : ["./img/10.jpg", "./img/10.1.jpg", "./img/10.2.jpg", "./img/10.3.jpg", "./img/10.4.jpg", "./img/10.5.jpg", "./img/10.6.jpg"],
+            name_of_product: "Poslamaýan gapjagaz",
+            current_price : 15,
+            about_product  : "Poslamaýan iým salynýan gapjagaz"
         },
     ],
     basgalar : [
@@ -223,7 +258,7 @@ function createElement_func(){
                     <h3 class="main-links"><a href="#">${API_changed[i].name_of_product}</a></h3>
                     <div class="price">
                         <span class="stars"></span>
-                        <span class="current">${API_changed[i].current_price*0}<span class="tmt"> TMT</span></span>
+                        <span class="current">${API_changed[i].current_price}<span class="tmt"> TMT</span></span>
                     </div>
                     <div class="mini-text">
                         <p>${API_changed[i].about_product.substring(0,98)}...</p>
