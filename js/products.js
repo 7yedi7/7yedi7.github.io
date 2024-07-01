@@ -92,6 +92,126 @@ let API_products = {
             current_price : 15,
             about_product  : "Poslamaýan iým salynýan gapjagaz"
         },
+        {
+            number : 12,
+            img_a : ["./img/11.jpg", "./img/11.1.jpg", "./img/11.2.jpg", "./img/9.3.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 30,
+            about_product  : "Primanka 10gram"
+        },
+        {
+            number : 13,
+            img_a : ["./img/11.jpg", "./img/11.1.jpg", "./img/11.2.jpg", "./img/9.3.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 30,
+            about_product  : "Primanka 15gram"
+        },
+        {
+            number : 14,
+            img_a : ["./img/11.jpg", "./img/11.1.jpg", "./img/11.2.jpg", "./img/9.3.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 35,
+            about_product  : "Primanka 20gram"
+        },
+        {
+            number : 15,
+            img_a : ["./img/11.jpg", "./img/11.1.jpg", "./img/11.2.jpg", "./img/9.3.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 40,
+            about_product  : "Primanka 25gram"
+        },
+        {
+            number : 16,
+            img_a : ["./img/12.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 30,
+            about_product  : "Primanka 10gram"
+        },
+        {
+            number : 17,
+            img_a : ["./img/12.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 30,
+            about_product  : "Primanka 15gram"
+        },
+        {
+            number : 18,
+            img_a : ["./img/12.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 35,
+            about_product  : "Primanka 20gram"
+        },
+        {
+            number : 19,
+            img_a : ["./img/12.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 40,
+            about_product  : "Primanka 25gram"
+        },
+        {
+            number : 20,
+            img_a : ["./img/13.jpg", "./img/13.1.jpg", "./img/13.2.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 55,
+            about_product  : "Primanka 27gram"
+        },
+        {
+            number : 21,
+            img_a : ["./img/13.jpg", "./img/13.1.jpg", "./img/13.2.jpg", "./img/13.3.jpg" ],
+            name_of_product: "Primanka",
+            current_price : 50,
+            about_product  : "Primanka 11,4gram"
+        },
+        {
+            number : 22,
+            img_a : ["./img/14.1.jpg", "./img/14.jpg"],
+            name_of_product: "Primanka",
+            current_price : 50,
+            about_product  : "Primanka 11,4gram"
+        },
+        {
+            number : 23,
+            img_a : ["./img/15.jpg"],
+            name_of_product: "Malýok setka",
+            current_price : 60,
+            about_product  : "Malýok setka içine iým salyp goýaýmaly. Kiçijek balyklary tutmak üçin!"
+        },
+        {
+            number : 24,
+            img_a : ["./img/16.jpg", "./img/16.1.jpg", "./img/16.2.jpg"],
+            name_of_product: "Gaýçy",
+            current_price : 10,
+            about_product  : "Gaýçy"
+        },
+        {
+            number : 25,
+            img_a : ["./img/17.png", "./img/17.1.png"],
+            name_of_product: "Primanka",
+            current_price : 50,
+            about_product  : "Primanka 11,4gram"
+        },
+        {
+            number : 26,
+            img_a : ["./img/18.png"],
+            name_of_product: "Jaňjagaz",
+            current_price : 7,
+            about_product  : "Jaňjagaz. balygyň düşüp düşmänini bilmek üçin jaňjagaz"
+        },
+        {
+            number : 27,
+            img_a : ["./img/19.jpg", "./img/19.1.jpg", "./img/19.2.jpg", "./img/19.3.jpg" ],
+            name_of_product: "Jaňjagaz",
+            current_price : 7,
+            about_product  : "Jaňjagaz. balygyň düşüp düşmänini bilmek üçin jaňjagaz"
+        },
+        {
+            number : 27,
+            img_a : ["./img/20.jpg", "./img/20.1.jpg"],
+            name_of_product: "Jaňjagaz",
+            current_price : 5,
+            about_product  : "Jaňjagaz. balygyň düşüp düşmänini bilmek üçin jaňjagaz"
+        },
+
     ],
     basgalar : [
         {
@@ -245,7 +365,7 @@ function createElement_func(){
         
         product_example = 
     `
-        <div class="row products mini">
+        <div class="row products mini box-shadow">
             <div class="item item_click">
                 <div class="media">
                     <div class="thumbnail object-cover">
@@ -269,7 +389,6 @@ function createElement_func(){
                         </div>
                 </div>
             </div>
-            <hr>
         </div>
     `
     

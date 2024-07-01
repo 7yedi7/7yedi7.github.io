@@ -224,6 +224,16 @@ h4{
 
 
 
+.box-shadow{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 5px 10px rgb(17, 184, 17);
+}
+.box-shadow:hover{
+    box-shadow: 1px 1px 1px rgb(17, 184, 17);
+}
+
+
 
 
 
@@ -642,10 +652,10 @@ nav span{
     left: 0;
     width: 450px;
     height: 300px;
-    /* background-color: var(--white-color);
+    background-color: var(--white-color);
     z-index: 1;
     filter: blur(50px);
-    opacity: .8; */
+    opacity: .8;
 }
 .slider .text-content {
     position: relative;
