@@ -62,7 +62,7 @@ menu_bottom.innerHTML = menu_bottom_innerCode;
 function Yza_gaytmak(){
     let path = window.location.pathname;
     let page = path.split('/').pop();
-    if(page == "yakynda.html" || page == "biz_barada.html" || page == "eltip_bermek_hyzmaty.html" || page == "ulanmak_sertleri.html"){
+    if(page == "yakynda.html" || page == "biz_barada.html" || page == "eltip_bermek_hyzmaty.html" || page == "ulanmak_sertleri.html" || page == "qr_code_generator.html"){
         window.location.href = "./index.html"
     }
     wide_projuct_place = document.getElementById("widely_product")
