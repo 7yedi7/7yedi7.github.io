@@ -28,7 +28,7 @@ let left_nav_innerCode =
                 <span>Programirowaniýe</span>
             <ul>
                 <li><a href="./yakynda.html">Css şablonlar</a></li>
-                <li><a href="./qr_code_generator.html">Qr code döret</a></li>
+                <li><a href="./qr_code_generator.html">Qr code döret <i style="padding-left: 7px;" class="ri-qr-code-fill"></i></a></li>
             </ul>
             <span>Biz barada</span>
             <ul>
