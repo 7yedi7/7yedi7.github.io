@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ýedi</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./For_web/fonts/remixicon.css">
+    <link rel="stylesheet" href="./css/menu_bottom.css">
+    <link rel="stylesheet" href="./css/gear-loader.css">
+    <link rel="stylesheet" href="./css/qr_generator.css">
+</head>
+<body>
+    <div id="page" class="site">
+    
+            <!-- Left navbar created from js -->
+<div id="left_navbar"></div>
+<!-- left navbar end -->
+    
+    <!-- header nav created by js -->
+<div id="header_nav"></div>
+<!-- header nav end -->
+
+
+<div class="qr_code_container">
+   <div>
+    <form action="#">
+        <input id="qr_code_input" type="text" placeholder="Text ýa-da URL ýaz" required> <br>
+        <button onclick="qr_generate()" class="button_qr_generator">Qr kot döret</button>
+    </form>
+    <img id="qr_code_id" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=7yedi7.github.io Hoş geldiňiz!" alt="Qr kot isletmek ucin internede baglanyn">
+   </div>
+</div>
+
+
+                <div id="footer_text"></div>
+                <!-- footer info creates by js -->
+                <div id="footer_info" style="border-top: 1px dotted gray;"></div>
+                <!-- footer info end -->
+    
+
+    <div id="menu_bottom"></div>
+
+
+    
+
+    <div id="overlay"></div>
+    </div>
+    <script src="./js/create_favicon.js"></script>
+    <script src="./js/headerNav.js"></script>
+    <script src="./js/footerInfo.js"></script>
+    <script src="./js/menu_bootm.js"></script>
+    <script src="./js/leftNavbar.js"></script>
+    <script src="./js/create_footerText.js"></script>
+    <script src="./js/qr_code_creator.js"></script>
+    <!-- <script src="./js/products.js"></script> -->
+
+</body>
+</html>
