@@ -1,12 +1,21 @@
+.qr_information{
+    padding: 0 5px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 2em;
+    
+}
+
+
+
 .qr_code_container {
-    padding-top: 70px;
-    display: flex;
-    justify-content: center;
+    padding-top: 50px;
+
     text-align: center; /* Adjust as needed */
 }
 
 #qr_code_input {
-    width: 100%;
+    width: 98%;
     border: 2px solid rgb(108, 105, 105);
     border-radius: 5px;
     padding: 7px;
@@ -14,7 +23,7 @@
 }
 
 .button_qr_generator {
-    width: 100%;
+    width: 98%;
     padding: 10px 20px; /* Adjust button padding for better appearance */
     background-color: #007bff; /* Example background color */
     color: #fff; /* Example text color */
@@ -26,3 +35,15 @@
 #qr_code_id{
     margin-bottom: 100px;
 }
+#qr_size{
+    width: 80%;
+}
+
+
+@media screen and (min-width: 992px) {
+    .qr_information{
+        font-size: 24px;
+    }
+}
+
+

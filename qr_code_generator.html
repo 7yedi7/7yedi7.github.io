@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,13 +22,45 @@
 <div id="header_nav"></div>
 <!-- header nav end -->
 
-
+<div class="qr_text">
+    <div class="container">
+        <div class="qr_information">
+            <span style="font-weight: 900;">Qr kot barada</span> <br>
+            <span style="color: red;">Qr kot</span> smartfonda kameranyň kömegi bilen okalýan, URL-leri ýa-da başga maglumatlary saklamak üçin ulanylýan gara
+             we ak kwadratlardan ybarat maşyn kod. QR kody ("quick response code" iňlisçeden terjime edilende "çalt jogap kody")
+              iki ölçegli matrisa ştrih kodunyň bir görnüşidir, 1994-nji ýylda ýapon kompaniýasy Denso Wave tarapyndan awtoulag
+            böleklerini bellemek üçin oýlanyp tapyldy. <br>
+            Gerekli maglumatlar QR şekiliniň keseligine we wertikal böleklerinde bar bolan nagyşlardan alynýar.
+            Ştrih-kod bellikli elemente mahsus maglumatlary öz içine alýan maşyn okalýan optiki şekil bolsa,
+             QR kody kesgitleýji we web yzarlamak üçin maglumatlary öz içine alýar.
+              Maglumatlary netijeli saklamak üçin QR kodlary kodlamagyň dört standartlaşdyrylan usuly ulanylýar: (i) san, (ii) harp sanlary, (iii) baýt ýa-da ikilik we (iv) kanji.
+            Adaty UPC ştrih-kodlary bilen deňeşdirilende, optiki şekili has çalt okamak we önümi yzarlamak, elementi kesgitlemek, wagt yzarlamak, resminamalary dolandyrmak we umumy marketing ýaly programmalarda has köp maglumat saklaýyş ukyby sebäpli QR bellik ulgamy awtoulag pudagyndan daşarda ulanyldy.
+        </div>
+    </div>
+    <div style="overflow: hidden;">________________________________________________________________________________________________________________________________________________________________________________________________________________________</div>
+    <div class="container">
+        <div class="qr_information">
+            <span style="font-weight: 900;">Qr kot nädip döretmeli?</span> <br>
+            <span style="color: rgb(48, 203, 17);">7 online platformasy </span> size Qr kot döretmek üçin iň amatly usullary size hödürleýar!
+            <span style="color: red;">Abuna bolmazdan, töleg tölemezden qr kot dörediň.</span> Onuň üçin tekst ýa-da url ýaz diýlen ýere url ýa-da islän zadyňyzy ýazyp, gök düwma basyp garaşyň! Qr kot döredilenden soň onuň ýüzüne basyp saklap edil surat kopýalanyşy ýaly edip kopýalap ulanyp bilersiňiz.
+        </div>
+    </div>
+</div>
+<div class="container">
+    
 <div class="qr_code_container">
-   <div>
-        <input id="qr_code_input" type="text" placeholder="Text ýa-da URL ýaz" required> <br>
-        <button onclick="qr_generate()" class="button_qr_generator">Qr kot döret</button>
-    <img id="qr_code_id" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=7yedi7.github.io Hoş geldiňiz!" alt="Qr kot isletmek ucin internede baglanyn">
-   </div>
+    <div>
+         <input id="qr_code_input" type="text" placeholder="Text ýa-da URL ýaz" required> <br>
+         <label style="color: gray;">Qr koduň ölçegini giriz</label> <br> <br>
+         <input id="qr_size" type="range" min="50" max="300" value="250" steps="1"> <span id="value_size">250</span>
+         <br> <br>
+         <button onclick="qr_generate()" class="button_qr_generator">Qr kot döret</button>
+     </div>
+ </div>
+</div>
+<div class="qr_code_container">
+    <img id="qr_code_id" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=7yedi7.github.io Hoş geldiňiz!" alt="Bellenen ýere tekst ýa-da url ýaz">
+   
 </div>
 
 
@@ -52,6 +85,11 @@
     <script src="./js/create_footerText.js"></script>
     <script src="./js/qr_code_creator.js"></script>
     <!-- <script src="./js/products.js"></script> -->
+    <script>
+
+        
+
+    </script>
 
 </body>
 </html>
