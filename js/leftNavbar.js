@@ -14,6 +14,7 @@ let left_nav_innerCode =
             <ul>
                 <li><a href="./kitaplar.html">Kitaplar</a></li>
                 <li><a href="./index.html">Balykçylyga degişli</a></li>
+                <li><a href="./datcik.html">7datçik</a></li>
                 <li><a href="./basgalar.html">Başgalar</a></li>
             </ul>
             <span>Hyzmatlar</span>
