@@ -31,7 +31,8 @@ let footer_info_textInner =
                                     <ul class="flexcol">
                                         <li><a href="./yakynda.html">Lazer hyzmaty</a></li>
                                         <li><a href="./yakynda.html">Maket ýasamak</a></li>
-                                        <li><a href="./gorkezme.html">Zakaz saytlar</a></li>
+                                        <li><a href="./gorkezme.html">Zakaz saytlar 1</a></li>
+                                        <li><a href="./futbol.html">Zakaz saytlar 2</a></li>
                                     </ul>
                                 </div>
                             </div>
