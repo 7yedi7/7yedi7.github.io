@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-DSItNair.js","./green-DYSCYCOM.js","./green-YCM-szZN.css","./page-DY-NYG-l.js","./index-4X5Q8o1q.js","./button-CD0rbIsn.js","./index-Ds-ypzNe.js","./index-BlIUR322.css","./images-CyXMKEGI.js"])))=>i.map(i=>d[i]);
-import{r as E,j as z,T as vv,G as eR,d as nR,a as iR,b as Zl,c as rR}from"./green-DYSCYCOM.js";import{_ as bv}from"./index-Ds-ypzNe.js";/**
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./home-C0ikv4p1.js","./green-hn3UDYiG.js","./green-BG5YVs62.css","./page-DnWmNfIa.js","./index-CtwDiAOp.js","./button-Ct2sEPvU.js","./index-B6eG867p.js","./index-BlIUR322.css","./images-C_2KOGnH.js"])))=>i.map(i=>d[i]);
+import{r as E,j as z,T as vv,G as eR,d as nR,a as iR,b as Zl,c as rR}from"./green-hn3UDYiG.js";import{_ as bv}from"./index-B6eG867p.js";/**
  * react-router v7.9.4
  *
  * Copyright (c) Remix Software Inc.
@@ -286,7 +286,7 @@ doglanGuni = "01.01.2001"; // säwlik: bahany üýtgedip bolmaýar`})]})]})]})},
       background: #fed197d5;
     }
   }
-`,F5=E.lazy(()=>bv(()=>import("./home-DSItNair.js"),__vite__mapDeps([0,1,2,3,4,5,6,7]),import.meta.url)),V5=E.lazy(()=>bv(()=>import("./images-CyXMKEGI.js"),__vite__mapDeps([8,1,2,3,5,6,7]),import.meta.url)),W5=()=>z.jsx(iR,{children:z.jsx(yE,{children:z.jsx(E.Suspense,{fallback:z.jsx(_5,{}),children:z.jsxs(GR,{children:[z.jsx(or,{path:"/",element:z.jsx(F5,{})}),z.jsx(or,{path:"/documentation",element:z.jsx(L5,{})}),z.jsx(or,{path:"/about",element:z.jsx(O5,{})}),z.jsx(or,{path:"/imageTo64Code",element:z.jsx(B5,{})}),z.jsx(or,{path:"/images",element:z.jsx(V5,{})}),z.jsx(or,{path:"/full-image",element:z.jsx(I5,{})})]})})})});var oo={exports:{}};/**
+`,F5=E.lazy(()=>bv(()=>import("./home-C0ikv4p1.js"),__vite__mapDeps([0,1,2,3,4,5,6,7]),import.meta.url)),V5=E.lazy(()=>bv(()=>import("./images-C_2KOGnH.js"),__vite__mapDeps([8,1,2,3,5,6,7]),import.meta.url)),W5=()=>z.jsx(iR,{children:z.jsx(yE,{children:z.jsx(E.Suspense,{fallback:z.jsx(_5,{}),children:z.jsxs(GR,{children:[z.jsx(or,{path:"/",element:z.jsx(F5,{})}),z.jsx(or,{path:"/documentation",element:z.jsx(L5,{})}),z.jsx(or,{path:"/about",element:z.jsx(O5,{})}),z.jsx(or,{path:"/imageTo64Code",element:z.jsx(B5,{})}),z.jsx(or,{path:"/images",element:z.jsx(V5,{})}),z.jsx(or,{path:"/full-image",element:z.jsx(I5,{})})]})})})});var oo={exports:{}};/**
  * @license
  * Lodash <https://lodash.com/>
  * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
